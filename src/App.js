@@ -19,6 +19,7 @@ function App() {
       style={{
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
+        // zIndex: ;
       }}
     >
       <Navbar />

@@ -24,17 +24,18 @@
     overflow: visible!important;
 }
 
-.portfolio-slider {
-  margin-top: 5rem;
+.portfolio img {
+  width: 19rem;
+  height: 10rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+.swiper-container {
+  margin-top: 2rem;
   width: 100%;
 }
 
-.portfolio-slider .swiper-slide {
-  width: 20rem;
-}
-.portfolio img {
-  width: 19rem;
-  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
-  border-radius: 19px;
-}
-
+/* #thumbs .swiper-slide {
+  cursor: pointer;
+}  */

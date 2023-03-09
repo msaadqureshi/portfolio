@@ -83,7 +83,6 @@ const Intro = () => {
           src={glassesimoji}
           alt=""
         />
-
         {/* animation */}
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
