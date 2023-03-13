@@ -66,7 +66,7 @@ const Intro = () => {
       <div className="i-right">
         <img
           style={{
-            width: "42rem",
+            width: "35rem",
             // height: "35rem",
           }}
           src={DevVector}
@@ -77,8 +77,9 @@ const Intro = () => {
         <img src={boy} alt="" /> */}
         {/* animation */}
         <motion.img
+          style={{ width: "10rem" }}
           initial={{ left: "-36%" }}
-          whileInView={{ left: "-20%" }}
+          whileInView={{ left: "-10%" }}
           transition={transition}
           src={glassesimoji}
           alt=""
@@ -93,8 +94,8 @@ const Intro = () => {
           <FloatinDiv img={crown} text1="React_Native" text2="Developer" />
         </motion.div>
         <motion.div
-          initial={{ top: "24rem", left: "10rem" }}
-          whileInView={{ left: "0rem" }}
+          initial={{ top: "20rem", left: "10rem" }}
+          whileInView={{ left: "-2rem" }}
           transition={transition}
           className="floating-div"
         >

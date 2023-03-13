@@ -1,5 +1,5 @@
 {
-  "homepage": "https://msaadqureshi.github.io/portfolio",
+  "homepage": "https://msaadqureshi.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,8 @@
     "framer-motion": "^6.2.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-progressbar-on-scroll": "^2.0.0",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.6",
     "swiper": "^8.0.7",

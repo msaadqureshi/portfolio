@@ -10,28 +10,38 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import ProgressBar from "react-progressbar-on-scroll";
+import { Routes, Route } from "react-router-dom";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div
-      className="App"
-      style={{
-        background: darkMode ? "black" : "",
-        color: darkMode ? "white" : "",
-        // zIndex: ;
-      }}
-    >
-      <Navbar />
-      <Intro />
-      <Services />
-      <Experience />
-      <Works />
-      <Portfolio />
-      {/* <Testimonial /> */}
-      <Contact />
-      <Footer />
-    </div>
+    <Routes>
+      <Route
+        path={"/portfolio"}
+        element={
+          <div
+            className="App"
+            style={{
+              background: darkMode ? "black" : "",
+              color: darkMode ? "white" : "",
+              // zIndex: ;
+            }}
+          >
+            <ProgressBar color="#09f6c7 " />
+            <Navbar />
+            <Intro />
+            <Services />
+            <Experience />
+            {/* <Works /> */}
+            <Portfolio />
+            {/* <Testimonial /> */}
+            <Contact />
+            <Footer />
+          </div>
+        }
+      />
+    </Routes>
   );
 }
 
