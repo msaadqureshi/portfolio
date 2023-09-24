@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: -0.5rem -8rem;
+  /* margin-top: -7rem; */
+  background:  #09f6c7;
+  border-top-left-radius: 80px;
+}
+.f-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+   /* position: absolute;
+  margin-top: 4rem; */
+  width: 100%; 
+  gap: 2rem;
+  color: white;
+  font-family:  monospace;
+}
+.f-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 480px){
+  .f-content{
+    transform: scale(.5);
+  }
+}
