@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
   <ThemeProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <App />
     </BrowserRouter>
   </ThemeProvider>,
